@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="startupApp">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Angular StartUP App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.svg"/>
+
+    <!--Metadata-->
+    <meta name="description"
+          content="AngularJS StartUP App"/>
+    <meta name="keywords"
+          content="angularjs, sass, gulp, bootstrap">
+
+
+    <!--Styles-->
+    <!--<link href="node_modules/bootstrap/dist/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="style/style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+
+<!--Views-->
+<div ui-view="header"></div>
+<div ui-view="content"></div>
+<div ui-view="footer"></div>
+
+
+<!--Angular Scripts-->
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/angular/angular.js"></script>
+<script src="node_modules/@uirouter/angularjs/release/angular-ui-router.js"></script>
+<script src="node_modules/angular-resource/angular-resource.js"></script>
+<script src="node_modules/angular-cookies/angular-cookies.js"></script>
+
+<script src="scripts/app.js"></script>
+<script src="scripts/controllers.js"></script>
+<script src="scripts/services.js"></script>
+<script src="scripts/filters.js"></script>
+<script src="scripts/directives.js"></script>
+
+<!--Assets Script-->
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+<!--Custom script-->
+<script src="scripts/init.js"></script>
+
+
+</body>
+</html>
